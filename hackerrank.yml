@@ -1,0 +1,13 @@
+version: 1.0
+configuration:
+  has_webserver: false
+  scoring:
+    command: "npm test"
+    files:
+      - junit.xml
+  ide_config:
+    default_open_files:
+      - src/App.js
+    project_menu:
+      install: npm install
+      test: npm test
